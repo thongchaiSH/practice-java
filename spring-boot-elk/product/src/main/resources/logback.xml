@@ -14,7 +14,7 @@
                 <pattern>
                     <pattern>
                         {
-                        "appName": "elk-pricing-service"
+                        "appName": "elk-product-service"
                         }
                     </pattern>
                 </pattern>
@@ -28,5 +28,5 @@
         <appender-ref ref="logstash"/>
     </root>
     <logger name="org.springframework" level="INFO"/>
-    <logger name="com.example.price" level="INFO"/>
+    <logger name="com.example.product" level="INFO"/>
 </configuration>
