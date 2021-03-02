@@ -1,4 +1,4 @@
-# Spring boot ELK Basic
+# Spring boot ELK Basic :smile:
 ## Description
 - Elasticsearch [port:9200]
 - Kibana [http://localhost:5601]
