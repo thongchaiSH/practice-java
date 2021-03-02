@@ -57,7 +57,11 @@
 </configuration>
 ```
 
-## Run start.sh or docker-compose up
+## Run
+``` 
+start.sh or docker-compose up
+```
+
 **Product Service**  
 http://localhost:8081/products  
 **Price Service**  
