@@ -34,12 +34,8 @@ You can create a native executable using:
 ./mvnw package -Pnative
 ```
 
-Or, if you don't have GraalVM installed, you can run the native executable build in a container using: 
-```shell script
-./mvnw package -Pnative -Dquarkus.native.container-build=true
-```
+Or, if you don't have GraalVM installed, you can run the native executable build in a container using:
 
-You can then execute your native executable with: `./target/code-with-quarkus-1.0.0-SNAPSHOT-runner`
 
 If you want to learn more about building native executables, please consult https://quarkus.io/guides/maven-tooling.html.
 
@@ -48,3 +44,33 @@ If you want to learn more about building native executables, please consult http
 <p>A Hello World RESTEasy resource</p>
 
 Guide: https://quarkus.io/guides/rest-json
+
+
+# Warning !!!
+## Must to set docker desktop memory first.
+
+
+```shell script
+./mvnw package -Pnative -Dquarkus.native.container-build=true -Dquarkus.native.native-image-xmx=5g
+```
+You can then execute your native executable with: `./target/code-with-quarkus-1.0.0-SNAPSHOT-runner`
+
+## Run native with container
+```
+docker build -f src/main/docker/Dockerfile.native -t quarkus-quickstart/getting-started .
+docker run -i --rm -p 8080:8080 quarkus-quickstart/getting-started
+```
+
+## Test it. !!!
+```
+http://localhost:8080/hello-resteasy
+docker stats
+```
+## Result
+```
+docker run -i --name=native --rm -p 8082:8080 quarkus/code-with-quarkus
+docker run -i --name=fastjar --rm -p 8081:8080 -p 5005:5005 -e JAVA_ENABLE_DEBUG="true" quarkus/code-with-quarkus-fast-jar
+docker run -i --name=jvm --rm -p 8080:8080 quarkus/code-with-quarkus-jvm
+```
+![image info](./images/img1.png)
+
