@@ -1,6 +1,7 @@
 package com.example.cassandra;
 
 import com.datastax.oss.driver.api.core.uuid.Uuids;
+//import com.datastax.driver.core.utils.UUIDs;
 import lombok.Data;
 import org.apache.tinkerpop.shaded.kryo.NotNull;
 import org.springframework.data.cassandra.core.mapping.PrimaryKey;
@@ -14,8 +15,8 @@ public class Customer {
     @PrimaryKey
     private UUID id;
 
-    public  Customer(){
-        this.id= Uuids.timeBased();
+    public Customer() {
+        this.id = Uuids.timeBased();
     }
 
     @NotNull
@@ -26,5 +27,4 @@ public class Customer {
     private Integer age;
     @NotNull
     private String email;
-
 }

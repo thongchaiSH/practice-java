@@ -1,0 +1,39 @@
+@hostname = localhost
+@port = 9000
+@host = {{hostname}}:{{port}}
+
+
+### Get User 
+GET http://{{host}}/api/customers HTTP/1.1
+###
+
+### Create customer
+POST http://{{host}}/api/customers HTTP/1.1
+content-type: application/json
+
+{
+    "firstName": "thongchai",
+    "lastName":"Sittikhetkorn",
+    "age": "12",
+    "email":"thongchai.sh@gmail.com"
+}
+###
+
+### Get User by id
+GET http://{{host}}/api/customers/138a97a0-7cca-11eb-97c7-c7c738c366d7 HTTP/1.1
+###
+
+### Create customer
+PUT http://{{host}}/api/customers/138a97a0-7cca-11eb-97c7-c7c738c366d7 HTTP/1.1
+content-type: application/json
+
+{
+    "firstName": "thongchai",
+    "lastName":"Sittikhetkorn",
+    "age": "12",
+    "email":"thongchai2.sh@gmail.com"
+}
+###
+
+
+
