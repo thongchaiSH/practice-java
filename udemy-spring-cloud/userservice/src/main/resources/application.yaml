@@ -26,3 +26,11 @@ eureka:
 
 gateway:
   ip: 192.168.43.94
+
+token:
+  secret: zxcdasdqwdsadsadsadasdq
+  expiration_time: 600000 #10min
+
+login:
+  url:
+    path: /users/login

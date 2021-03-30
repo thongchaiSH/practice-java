@@ -1,0 +1,46 @@
+server:
+  port: 8082
+
+spring:
+  application:
+    name: zuul-service
+  cloud:
+    gateway:
+      discovery:
+        locator:
+          enabled: true
+          lower-case-service-id: true
+      routes:
+        - id: user-status-check
+          uri: lb://users-ws
+          predicates:
+            - Path=/users/status/check
+            - Method=GET
+          filters:
+            - RemoveRequestHeader=Cookie
+
+eureka:
+   client:
+      serviceUrl:
+        defaultZone: http://localhost:8888/eureka/
+
+management:
+  security:
+    enabled: false
+
+api:
+  login:
+    url-path: /users-ws/users/login
+  registration:
+    url-path: /users-ws/users
+  h2console:
+    url-path: /users-ws/h2-console/**
+
+authorization:
+  token:
+    header:
+      name: Authorization
+      prefix: Bearer
+
+token:
+  secret: zxcdasdqwdsadsadsadasdq
