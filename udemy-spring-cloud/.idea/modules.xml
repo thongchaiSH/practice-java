@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/udemy-spring-cloud.iml" filepath="$PROJECT_DIR$/.idea/udemy-spring-cloud.iml" />
+      <module fileurl="file://$PROJECT_DIR$/APIConfigServer.iml" filepath="$PROJECT_DIR$/APIConfigServer.iml" />
     </modules>
   </component>
 </project>

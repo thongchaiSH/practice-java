@@ -1,9 +1,58 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="3454ab41-590b-418e-bff1-56976e2b137f" name="Default Changelist" comment="">
+    <list default="true" id="69888b16-8243-44e6-a2c3-5d8bae460380" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/SpringCloudApiGateWay/src/main/java/com/ithongchai/apigateway/configuration/GlobalFiltersConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringCloudApiGateWay/src/main/java/com/ithongchai/apigateway/configuration/MyPostFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringCloudApiGateWay/src/main/java/com/ithongchai/apigateway/configuration/MyPreFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringCloudApiGateWay/src/main/java/com/ithongchai/apigateway/security/AuthorizationHeaderFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/udemy-spring-cloud.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringCloudApiGateWay/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" afterPath="$PROJECT_DIR$/SpringCloudApiGateWay/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringCloudApiGateWay/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SpringCloudApiGateWay/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringCloudApiGateWay/src/main/java/com/ithongchai/apigateway/ApigatewayApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/SpringCloudApiGateWay/src/main/java/com/ithongchai/apigateway/ApigatewayApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringCloudApiGateWay/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/SpringCloudApiGateWay/src/main/resources/application.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringCloudApiGateWay/src/test/java/com/ithongchai/apigateway/ApigatewayApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/SpringCloudApiGateWay/src/test/java/com/ithongchai/apigateway/ApigatewayApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZuulApiGateway/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" afterPath="$PROJECT_DIR$/ZuulApiGateway/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZuulApiGateway/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ZuulApiGateway/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZuulApiGateway/src/main/java/com/ex/gateway/GatewayApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/ZuulApiGateway/src/main/java/com/ex/gateway/GatewayApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZuulApiGateway/src/main/java/com/ex/gateway/security/WebSecurity.java" beforeDir="false" afterPath="$PROJECT_DIR$/ZuulApiGateway/src/main/java/com/ex/gateway/security/WebSecurity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZuulApiGateway/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ZuulApiGateway/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZuulApiGateway/src/test/java/com/ex/gateway/GatewayApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/ZuulApiGateway/src/test/java/com/ex/gateway/GatewayApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/account/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" afterPath="$PROJECT_DIR$/account/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/account/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/account/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/account/src/main/java/com/iths/account/AccountApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/account/src/main/java/com/iths/account/AccountApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/account/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/account/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/account/src/test/java/com/iths/account/AccountApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/account/src/test/java/com/iths/account/AccountApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/discovery/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" afterPath="$PROJECT_DIR$/discovery/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/discovery/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/discovery/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/discovery/src/main/java/com/its/discovery/discovery/DiscoveryApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/discovery/src/main/java/com/its/discovery/discovery/DiscoveryApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/discovery/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/discovery/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/discovery/src/test/java/com/its/discovery/discovery/DiscoveryApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/discovery/src/test/java/com/its/discovery/discovery/DiscoveryApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" afterPath="$PROJECT_DIR$/mobile/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mobile/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile/src/main/java/com/its/app/ws/mobile/MobileApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/mobile/src/main/java/com/its/app/ws/mobile/MobileApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile/src/main/java/com/its/app/ws/mobile/exceptions/AppExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/mobile/src/main/java/com/its/app/ws/mobile/exceptions/AppExceptionHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile/src/main/java/com/its/app/ws/mobile/shared/Utils.java" beforeDir="false" afterPath="$PROJECT_DIR$/mobile/src/main/java/com/its/app/ws/mobile/shared/Utils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile/src/main/java/com/its/app/ws/mobile/ui/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/mobile/src/main/java/com/its/app/ws/mobile/ui/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile/src/main/java/com/its/app/ws/mobile/ui/model/request/UpdateUserDetailsModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/mobile/src/main/java/com/its/app/ws/mobile/ui/model/request/UpdateUserDetailsModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile/src/main/java/com/its/app/ws/mobile/ui/model/request/UserDetailsRequestModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/mobile/src/main/java/com/its/app/ws/mobile/ui/model/request/UserDetailsRequestModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile/src/test/java/com/its/app/ws/mobile/MobileApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/mobile/src/test/java/com/its/app/ws/mobile/MobileApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userservice/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" afterPath="$PROJECT_DIR$/userservice/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/userservice/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/userservice/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userservice/src/main/java/com/iths/userservice/UserserviceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/userservice/src/main/java/com/iths/userservice/UserserviceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userservice/src/main/java/com/iths/userservice/api/users/data/UserEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/userservice/src/main/java/com/iths/userservice/api/users/data/UserEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userservice/src/main/java/com/iths/userservice/api/users/security/AuthenticationFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/userservice/src/main/java/com/iths/userservice/api/users/security/AuthenticationFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userservice/src/main/java/com/iths/userservice/api/users/security/WebSecurity.java" beforeDir="false" afterPath="$PROJECT_DIR$/userservice/src/main/java/com/iths/userservice/api/users/security/WebSecurity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userservice/src/main/java/com/iths/userservice/api/users/service/UsersService.java" beforeDir="false" afterPath="$PROJECT_DIR$/userservice/src/main/java/com/iths/userservice/api/users/service/UsersService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userservice/src/main/java/com/iths/userservice/api/users/service/UsersServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/userservice/src/main/java/com/iths/userservice/api/users/service/UsersServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/userservice/src/main/java/com/iths/userservice/ui/controller/UsersController.java" beforeDir="false" afterPath="$PROJECT_DIR$/userservice/src/main/java/com/iths/userservice/ui/controller/UsersController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userservice/src/test/java/com/iths/userservice/UserserviceApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/userservice/src/test/java/com/iths/userservice/UserserviceApplicationTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,7 +62,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="ProjectId" id="1qSNCO0a08KMOiHqyFH9WqDtF1r" />
+  <component name="ProjectId" id="1qTJiKMQEwlafCtezWVLVjitY7m" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -24,17 +73,25 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunManager">
+    <configuration name="ApiConfigServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="APIConfigServer" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.iths.demo.ApiConfigServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="3454ab41-590b-418e-bff1-56976e2b137f" name="Default Changelist" comment="" />
-      <created>1617068905730</created>
+      <changelist id="69888b16-8243-44e6-a2c3-5d8bae460380" name="Default Changelist" comment="" />
+      <created>1617097774407</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1617068905730</updated>
-      <workItem from="1617068908147" duration="36000" />
+      <updated>1617097774407</updated>
+      <workItem from="1617097775742" duration="75000" />
     </task>
     <servers />
   </component>

@@ -36,12 +36,12 @@ public class UserController {
 
     @GetMapping
     public String getUser(@RequestParam(value = "page", defaultValue = "1") int page,
-            @RequestParam(value = "limit", defaultValue = "50", required = false) int limit,
-            @RequestParam(value = "sort", defaultValue = "asc", required = false) String sort) {
+                          @RequestParam(value = "limit", defaultValue = "50", required = false) int limit,
+                          @RequestParam(value = "sort", defaultValue = "asc", required = false) String sort) {
         return "get user was called with page = " + page + " and limit = " + limit + " and sort " + sort;
     }
 
-    @GetMapping(path = "/{userId}", produces = { MediaType.APPLICATION_XML_VALUE, MediaType.APPLICATION_JSON_VALUE })
+    @GetMapping(path = "/{userId}", produces = {MediaType.APPLICATION_XML_VALUE, MediaType.APPLICATION_JSON_VALUE})
     public ResponseEntity<UserRest> getUser(@PathVariable String userId) {
 
         // if (true) {
@@ -57,8 +57,8 @@ public class UserController {
     }
 
     // Create
-    @PostMapping(consumes = { MediaType.APPLICATION_XML_VALUE, MediaType.APPLICATION_JSON_VALUE }, produces = {
-            MediaType.APPLICATION_XML_VALUE, MediaType.APPLICATION_JSON_VALUE })
+    @PostMapping(consumes = {MediaType.APPLICATION_XML_VALUE, MediaType.APPLICATION_JSON_VALUE}, produces = {
+            MediaType.APPLICATION_XML_VALUE, MediaType.APPLICATION_JSON_VALUE})
     public ResponseEntity<UserRest> createUser(@Valid @RequestBody UserDetailsRequestModel userDetails) {
 
         UserRest returnValue = userService.createUser(userDetails);
@@ -68,7 +68,7 @@ public class UserController {
     // Update
     @PutMapping(path = "/{userId}")
     public ResponseEntity<UserRest> updateUser(@PathVariable String userId,
-            @Valid @RequestBody UpdateUserDetailsModel userDetails) {
+                                               @Valid @RequestBody UpdateUserDetailsModel userDetails) {
         // return "update user was called";
         if (users.containsKey(userId)) {
             UserRest user = users.get(userId);

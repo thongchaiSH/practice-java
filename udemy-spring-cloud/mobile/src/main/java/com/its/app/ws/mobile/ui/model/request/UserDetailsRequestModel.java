@@ -12,11 +12,11 @@ import lombok.Data;
 public class UserDetailsRequestModel {
 
     @NotNull(message = "First name cannot be null")
-    @Size(min = 2,message = "Fitstname must not lessthan 2 char")
+    @Size(min = 2, message = "Fitstname must not lessthan 2 char")
     private String firstName;
 
     @NotNull(message = "Lasname cannot be null")
-    @Size(min = 2,message = "Fitstname must not lessthan 2 char")
+    @Size(min = 2, message = "Fitstname must not lessthan 2 char")
     private String lastName;
 
     @NotNull(message = "Email cannot be null")

@@ -1,9 +1,9 @@
 server:
-    port: 8040
+  port: 8040
 spring:
-    application:
-      name: account-ws
+  application:
+    name: account-ws
 eureka:
-    client:
-      serviceUrl:
-        defaultZone: http://localhost:8888/eureka/
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8888/eureka/

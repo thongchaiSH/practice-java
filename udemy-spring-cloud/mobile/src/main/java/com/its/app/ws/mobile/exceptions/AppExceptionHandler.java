@@ -16,7 +16,7 @@ import org.springframework.web.servlet.mvc.method.annotation.ResponseEntityExcep
 public class AppExceptionHandler extends ResponseEntityExceptionHandler {
 
     // Any Exception
-    @ExceptionHandler(value = { Exception.class })
+    @ExceptionHandler(value = {Exception.class})
     public ResponseEntity<Object> handleAnyException(Exception ex, WebRequest request) {
         String errorEessage = ex.getLocalizedMessage();
         if (errorEessage == null) {
@@ -27,7 +27,7 @@ public class AppExceptionHandler extends ResponseEntityExceptionHandler {
     }
 
     // Null Pointer , UserService Exception 
-    @ExceptionHandler(value = { NullPointerException.class,UserServiceException.class  })
+    @ExceptionHandler(value = {NullPointerException.class, UserServiceException.class})
     public ResponseEntity<Object> handleSpecificException(Exception ex, WebRequest request) {
         String errorEessage = ex.getLocalizedMessage();
         if (errorEessage == null) {
@@ -37,5 +37,5 @@ public class AppExceptionHandler extends ResponseEntityExceptionHandler {
         return new ResponseEntity<>(errorMessage, new HttpHeaders(), HttpStatus.INTERNAL_SERVER_ERROR);
     }
 
-    
+
 }
