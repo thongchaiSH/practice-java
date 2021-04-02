@@ -2,9 +2,10 @@
 <configuration debug="false">
     <include resource="org/springframework/boot/logging/logback/base.xml"/>
     <springProperty scope="context" name="springAppName" source="spring.application.name"/>
-    
+
     <appender name="logstash" class="net.logstash.logback.appender.LogstashTcpSocketAppender">
         <destination>localhost:5044</destination>
+
         <encoder class="net.logstash.logback.encoder.LoggingEventCompositeJsonEncoder">
             <providers>
                 <mdc/>
@@ -16,7 +17,7 @@
                 <pattern>
                     <pattern>
                         {
-                            "appName": "${springAppName}"
+                        "appName": "${springAppName}"
                         }
                     </pattern>
                 </pattern>
@@ -25,10 +26,12 @@
             </providers>
         </encoder>
     </appender>
+
+
     <root level="INFO">
         <appender-ref ref="CONSOLE"/>
         <appender-ref ref="logstash"/>
     </root>
     <logger name="org.springframework" level="INFO"/>
-    <logger name="com.example.price" level="INFO"/>
+
 </configuration>

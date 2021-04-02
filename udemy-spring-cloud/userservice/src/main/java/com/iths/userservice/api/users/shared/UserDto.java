@@ -1,7 +1,9 @@
 package com.iths.userservice.api.users.shared;
 
 import java.io.Serializable;
+import java.util.List;
 
+import com.iths.userservice.ui.model.AlbumResponseModel;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
@@ -23,4 +25,5 @@ public class UserDto implements Serializable {
     private String userId;
     private String password;
     private String encryptedPassword;
+    private List<AlbumResponseModel> albums;
 }

@@ -1,5 +1,5 @@
 server:
-  port: 8082
+  port: 8083
 
 spring:
   application:
@@ -18,15 +18,10 @@ spring:
             - Method=GET
           filters:
             - RemoveRequestHeader=Cookie
-
-eureka:
-  client:
-    serviceUrl:
-      defaultZone: http://localhost:8888/eureka/
-
 management:
   security:
     enabled: false
+  context-path: /actuator
 
 api:
   login:
@@ -35,6 +30,12 @@ api:
     url-path: /users-ws/users
   h2console:
     url-path: /users-ws/h2-console/**
+  users:
+    actuator:
+      url-path: /users-ws/actuator/*
+  zuul:
+    actuator:
+      url-path: /actuator/*
 
 authorization:
   token:
@@ -42,5 +43,3 @@ authorization:
       name: Authorization
       prefix: Bearer
 
-token:
-  secret: zxcdasdqwdsadsadsadasdq

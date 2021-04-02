@@ -8,18 +8,37 @@ spring:
       enabled: true
       settings:
         web-allow-others: true
-  datasource:
-    url: jdbc:h2:mem:testdb
-    driverClassName: org.h2.Driver
-    username: sa
-    # password: password
   jpa:
-    database-platform: org.hibernate.dialect.H2Dialect
+#    database-platform: org.hibernate.dialect.H2Dialect
+    hibernate:
+      ddl-auto: update
+
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: guest
+    password: guest
+  zipkin:
+    base-url: http://localhost:9411
 
 eureka:
   client:
-    serviceUrl:
-      defaultZone: http://localhost:8888/eureka/
     registryFetchIntervalSeconds: 5
   instance:
     instance-id: ${spring.application.name}:${random.value}
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: mappings
+logging:
+  level:
+    com.iths.userservice.api.users.data.AlbumsServiceClient: DEBUG
+  file:
+    name: users-ws.log
+
+feign:
+  hystrix:
+    enabled: true
+
