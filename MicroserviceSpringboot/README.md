@@ -1,7 +1,4 @@
-**Practice Mircoservice Sptring cloud**
-
-
-
+# **Practice Mircoservice Sptring cloud**
 ## Department Service
 - POST http://localhost:9191/departments/
   ```json
@@ -44,4 +41,4 @@ docker run -it -d -p 9411:9411 openzipkin/zipkin
 ## Hystrix dashboard
 - http://localhost:9295/hystrix
 
-### Sptring boot version (2.4.5,2.3.11)
+### Spring boot version (2.4.5,2.3.11)
