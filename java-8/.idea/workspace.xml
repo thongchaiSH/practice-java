@@ -2,10 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5e8678aa-1303-4e7b-8b25-9a2e1c96cb3d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/learn/java/imperativecsdeclarative/ImperativeVsDeclarativeExample1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/learn/java/imperativecsdeclarative/ImperativeVsDeclarativeExample2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/learn/java/data/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/learn/java/data/StudentDataBase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/learn/java/functioninterfaces/BiConsumerExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/learn/java/functioninterfaces/ConsumerExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/learn/java/lambdas/ComparatorLambdaExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/learn/java/lambdas/RunnableLambdaExample.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../MicroserviceSpringboot/cloud-config-server/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../MicroserviceSpringboot/cloud-config-server/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../udemy-spring-cloud/PhotoAppApiAlbums" beforeDir="false" afterPath="$PROJECT_DIR$/../udemy-spring-cloud/PhotoAppApiAlbums" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -22,6 +27,14 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="ProjectId" id="1si7IwOhUIZpbRw4wN0pHMjuxzA" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -85,17 +98,45 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.deploy.options" />
   </component>
-  <component name="RunManager" selected="Application.ImperativeVsDeclarativeExample2">
-    <configuration name="ImperativeVsDeclarativeExample1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.learn.java.imperativecsdeclarative.ImperativeVsDeclarativeExample1" />
+  <component name="RunManager" selected="Application.BiConsumerExample">
+    <configuration name="BiConsumerExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.learn.java.functioninterfaces.BiConsumerExample" />
       <module name="java-8" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.learn.java.imperativecsdeclarative.*" />
+          <option name="PATTERN" value="com.learn.java.functioninterfaces.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ComparatorLambdaExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.learn.java.lambdas.ComparatorLambdaExample" />
+      <module name="java-8" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.learn.java.lambdas.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConsumerExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.learn.java.functioninterfaces.ConsumerExample" />
+      <module name="java-8" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.learn.java.functioninterfaces.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -116,36 +157,46 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.learn.java.Main" />
+    <configuration name="RunnableLambdaExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.learn.java.lambdas.RunnableLambdaExample" />
       <module name="java-8" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.learn.java.lambdas.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Main" />
-      <item itemvalue="Application.ImperativeVsDeclarativeExample1" />
       <item itemvalue="Application.ImperativeVsDeclarativeExample2" />
+      <item itemvalue="Application.RunnableLambdaExample" />
+      <item itemvalue="Application.ComparatorLambdaExample" />
+      <item itemvalue="Application.ConsumerExample" />
+      <item itemvalue="Application.BiConsumerExample" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BiConsumerExample" />
+        <item itemvalue="Application.ConsumerExample" />
+        <item itemvalue="Application.ComparatorLambdaExample" />
+        <item itemvalue="Application.RunnableLambdaExample" />
         <item itemvalue="Application.ImperativeVsDeclarativeExample2" />
-        <item itemvalue="Application.ImperativeVsDeclarativeExample1" />
       </list>
     </recent_temporary>
   </component>
@@ -157,7 +208,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1621343481187</updated>
-      <workItem from="1621343482886" duration="745000" />
+      <workItem from="1621343482886" duration="1547000" />
+      <workItem from="1621431369903" duration="3970000" />
     </task>
     <servers />
   </component>
@@ -174,5 +226,6 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>
