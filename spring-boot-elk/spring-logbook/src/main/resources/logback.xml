@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration debug="false">
+    <include resource="org/springframework/boot/logging/logback/base.xml"/>
+    <springProperty scope="context" name="appName" source="spring.application.name"/>
+
+
+    <appender name="traceRequest" class="net.logstash.logback.appender.LogstashTcpSocketAppender">
+        <destination>localhost:5044</destination>
+        <encoder class="net.logstash.logback.encoder.LoggingEventCompositeJsonEncoder">
+            <providers>
+                <mdc/>
+                <context/>
+                <version/>
+                <logLevel/>
+                <loggerName/>
+                <message/>
+                <pattern>
+                    <pattern>
+                        {
+                        "appName": "ecom-http-trace"
+                        }
+                    </pattern>
+                </pattern>
+                <threadName/>
+                <stackTrace/>
+            </providers>
+        </encoder>
+    </appender>
+
+    <appender name="logstash" class="net.logstash.logback.appender.LogstashTcpSocketAppender">
+        <destination>localhost:5044</destination>
+        <encoder class="net.logstash.logback.encoder.LoggingEventCompositeJsonEncoder">
+            <providers>
+                <mdc/>
+                <context/>
+                <version/>
+                <logLevel/>
+                <loggerName/>
+                <message/>
+                <pattern>
+                    <pattern>
+                        {
+                        "appName": "${appName}"
+                        }
+                    </pattern>
+                </pattern>
+                <threadName/>
+                <stackTrace/>
+            </providers>
+        </encoder>
+    </appender>
+
+    <appender name="CONSOLE" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder>
+            <pattern>%d{HH:mm:ss.SSS} %5p [%X{X-B3-TraceId:-}]  [%thread] %-5level %logger{36} - %msg%n</pattern>
+        </encoder>
+    </appender>
+
+
+    <logger name="com.spring.elk.util.LogstashLogbackSink" level="TRACE" additivity="false">
+        <appender-ref ref="traceRequest"/>
+    </logger>
+
+    <root level="INFO">
+        <appender-ref ref="logstash"/>
+    </root>
+
+    <logger name="org.springframework" level="INFO"/>
+    <logger name="com.spring.elk" level="ALL"/>
+</configuration>
