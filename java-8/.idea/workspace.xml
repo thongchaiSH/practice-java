@@ -2,21 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5e8678aa-1303-4e7b-8b25-9a2e1c96cb3d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/learn/java/constructorreferece/ConstructorReferenceExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/learn/java/functioninterfaces/BiFunctionExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/learn/java/functioninterfaces/BinaryOperatorExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/learn/java/functioninterfaces/SupplierExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/learn/java/functioninterfaces/UnaryOperatorExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/learn/java/lambdas/LambdaVariable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/learn/java/lambdas/LambdaVariable2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/learn/java/methodreference/ConsumerMethodReferenceExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/learn/java/methodreference/FunctionMethodReferenceExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/learn/java/methodreference/RefactorMethodReferenceExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/learn/java/streams/CollectionsVsStream.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/learn/java/streams/StreamMapExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/learn/java/streams/StreamsComparatorExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/learn/java/streams/StreamsExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/learn/java/streams/StreamsFilterExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/learn/java/streams/StreamsFlatMapExample.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java-8/com/learn/java/data/StudentDataBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-8/com/learn/java/data/StudentDataBase.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java-8/com/learn/java/functioninterfaces/FunctionStudenExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/learn/java/data/StudentDataBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/learn/java/data/StudentDataBase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/learn/java/functioninterfaces/FunctionStudenExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/learn/java/functioninterfaces/FunctionStudentExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-8/com/learn/java/lambdas/LambdaVariable2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-8/com/learn/java/lambdas/LambdaVariable2.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../udemy-spring-cloud/PhotoAppApiAlbums" beforeDir="false" afterPath="$PROJECT_DIR$/../udemy-spring-cloud/PhotoAppApiAlbums" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -110,13 +103,13 @@
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="reference.settings.deploy.options" />
   </component>
-  <component name="RunManager" selected="Application.LambdaVariable2">
-    <configuration name="ConstructorReferenceExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.learn.java.constructorreferece.ConstructorReferenceExample" />
+  <component name="RunManager" selected="Application.StreamsFilterExample">
+    <configuration name="StreamMapExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.learn.java.streams.StreamMapExample" />
       <module name="java-8" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.learn.java.constructorreferece.*" />
+          <option name="PATTERN" value="com.learn.java.streams.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -124,12 +117,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ConsumerMethodReferenceExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.learn.java.methodreference.ConsumerMethodReferenceExample" />
+    <configuration name="StreamsComparatorExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.learn.java.streams.StreamsComparatorExample" />
       <module name="java-8" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.learn.java.methodreference.*" />
+          <option name="PATTERN" value="com.learn.java.streams.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -137,12 +130,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LambdaVariable" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.learn.java.lambdas.LambdaVariable" />
+    <configuration name="StreamsExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.learn.java.streams.StreamsExample" />
       <module name="java-8" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.learn.java.lambdas.*" />
+          <option name="PATTERN" value="com.learn.java.streams.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -150,12 +143,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LambdaVariable2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.learn.java.lambdas.LambdaVariable2" />
+    <configuration name="StreamsFilterExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.learn.java.streams.StreamsFilterExample" />
       <module name="java-8" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.learn.java.lambdas.*" />
+          <option name="PATTERN" value="com.learn.java.streams.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -163,12 +156,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RefactorMethodReferenceExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.learn.java.methodreference.RefactorMethodReferenceExample" />
+    <configuration name="StreamsFlatMapExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.learn.java.streams.StreamsFlatMapExample" />
       <module name="java-8" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.learn.java.methodreference.*" />
+          <option name="PATTERN" value="com.learn.java.streams.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -188,19 +181,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.ConsumerMethodReferenceExample" />
-      <item itemvalue="Application.RefactorMethodReferenceExample" />
-      <item itemvalue="Application.ConstructorReferenceExample" />
-      <item itemvalue="Application.LambdaVariable" />
-      <item itemvalue="Application.LambdaVariable2" />
+      <item itemvalue="Application.StreamsExample" />
+      <item itemvalue="Application.StreamMapExample" />
+      <item itemvalue="Application.StreamsFlatMapExample" />
+      <item itemvalue="Application.StreamsComparatorExample" />
+      <item itemvalue="Application.StreamsFilterExample" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.LambdaVariable2" />
-        <item itemvalue="Application.LambdaVariable" />
-        <item itemvalue="Application.ConstructorReferenceExample" />
-        <item itemvalue="Application.RefactorMethodReferenceExample" />
-        <item itemvalue="Application.ConsumerMethodReferenceExample" />
+        <item itemvalue="Application.StreamsFilterExample" />
+        <item itemvalue="Application.StreamsComparatorExample" />
+        <item itemvalue="Application.StreamsFlatMapExample" />
+        <item itemvalue="Application.StreamMapExample" />
+        <item itemvalue="Application.StreamsExample" />
       </list>
     </recent_temporary>
   </component>
@@ -218,7 +211,7 @@
       <workItem from="1621590568377" duration="2868000" />
       <workItem from="1621691026717" duration="542000" />
       <workItem from="1621757346987" duration="794000" />
-      <workItem from="1621862004817" duration="3225000" />
+      <workItem from="1621862004817" duration="7435000" />
     </task>
     <servers />
   </component>
