@@ -2,16 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5e8678aa-1303-4e7b-8b25-9a2e1c96cb3d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/learn/java/functioninterfaces/FunctionExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/learn/java/functioninterfaces/FunctionExample1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/learn/java/functioninterfaces/FunctionStudenExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/learn/java/functioninterfaces/PredicateAndConsumerExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/learn/java/functioninterfaces/PredicateExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/learn/java/functioninterfaces/PredicateStudentExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MicroserviceSpringboot/cloud-config-server/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../MicroserviceSpringboot/cloud-config-server/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/learn/java/constructorreferece/ConstructorReferenceExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/learn/java/functioninterfaces/BiFunctionExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/learn/java/functioninterfaces/BinaryOperatorExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/learn/java/functioninterfaces/SupplierExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/learn/java/functioninterfaces/UnaryOperatorExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/learn/java/lambdas/LambdaVariable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/learn/java/lambdas/LambdaVariable2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/learn/java/methodreference/ConsumerMethodReferenceExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/learn/java/methodreference/FunctionMethodReferenceExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/learn/java/methodreference/RefactorMethodReferenceExample.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring-boot-elk/spring-logbook/src/main/java/com/spring/elk/controller/ApiController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-boot-elk/spring-logbook/src/main/java/com/spring/elk/controller/ApiController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring-boot-elk/spring-logbook/src/main/resources/logback.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-boot-elk/spring-logbook/src/main/resources/logback.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-8/com/learn/java/data/StudentDataBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-8/com/learn/java/data/StudentDataBase.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-8/com/learn/java/functioninterfaces/FunctionStudenExample.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/learn/java/data/StudentDataBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/learn/java/data/StudentDataBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/learn/java/functioninterfaces/FunctionStudenExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/learn/java/functioninterfaces/FunctionStudentExample.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../udemy-spring-cloud/PhotoAppApiAlbums" beforeDir="false" afterPath="$PROJECT_DIR$/../udemy-spring-cloud/PhotoAppApiAlbums" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -105,13 +110,13 @@
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="reference.settings.deploy.options" />
   </component>
-  <component name="RunManager" selected="Application.FunctionStudenExample">
-    <configuration name="FunctionExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.learn.java.functioninterfaces.FunctionExample" />
+  <component name="RunManager" selected="Application.LambdaVariable2">
+    <configuration name="ConstructorReferenceExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.learn.java.constructorreferece.ConstructorReferenceExample" />
       <module name="java-8" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.learn.java.functioninterfaces.*" />
+          <option name="PATTERN" value="com.learn.java.constructorreferece.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -119,12 +124,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FunctionExample1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.learn.java.functioninterfaces.FunctionExample1" />
+    <configuration name="ConsumerMethodReferenceExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.learn.java.methodreference.ConsumerMethodReferenceExample" />
       <module name="java-8" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.learn.java.functioninterfaces.*" />
+          <option name="PATTERN" value="com.learn.java.methodreference.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -132,12 +137,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FunctionStudenExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.learn.java.functioninterfaces.FunctionStudenExample" />
+    <configuration name="LambdaVariable" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.learn.java.lambdas.LambdaVariable" />
       <module name="java-8" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.learn.java.functioninterfaces.*" />
+          <option name="PATTERN" value="com.learn.java.lambdas.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -145,12 +150,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PredicateAndConsumerExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.learn.java.functioninterfaces.PredicateAndConsumerExample" />
+    <configuration name="LambdaVariable2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.learn.java.lambdas.LambdaVariable2" />
       <module name="java-8" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.learn.java.functioninterfaces.*" />
+          <option name="PATTERN" value="com.learn.java.lambdas.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -158,12 +163,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PredicateStudentExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.learn.java.functioninterfaces.PredicateStudentExample" />
+    <configuration name="RefactorMethodReferenceExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.learn.java.methodreference.RefactorMethodReferenceExample" />
       <module name="java-8" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.learn.java.functioninterfaces.*" />
+          <option name="PATTERN" value="com.learn.java.methodreference.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -171,33 +176,31 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.PredicateStudentExample" />
-      <item itemvalue="Application.PredicateAndConsumerExample" />
-      <item itemvalue="Application.FunctionExample" />
-      <item itemvalue="Application.FunctionExample1" />
-      <item itemvalue="Application.FunctionStudenExample" />
+      <item itemvalue="Application.ConsumerMethodReferenceExample" />
+      <item itemvalue="Application.RefactorMethodReferenceExample" />
+      <item itemvalue="Application.ConstructorReferenceExample" />
+      <item itemvalue="Application.LambdaVariable" />
+      <item itemvalue="Application.LambdaVariable2" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.FunctionStudenExample" />
-        <item itemvalue="Application.FunctionExample1" />
-        <item itemvalue="Application.FunctionExample" />
-        <item itemvalue="Application.PredicateAndConsumerExample" />
-        <item itemvalue="Application.PredicateStudentExample" />
+        <item itemvalue="Application.LambdaVariable2" />
+        <item itemvalue="Application.LambdaVariable" />
+        <item itemvalue="Application.ConstructorReferenceExample" />
+        <item itemvalue="Application.RefactorMethodReferenceExample" />
+        <item itemvalue="Application.ConsumerMethodReferenceExample" />
       </list>
     </recent_temporary>
   </component>
@@ -212,7 +215,10 @@
       <workItem from="1621343482886" duration="1547000" />
       <workItem from="1621431369903" duration="5118000" />
       <workItem from="1621589164350" duration="1195000" />
-      <workItem from="1621590568377" duration="2614000" />
+      <workItem from="1621590568377" duration="2868000" />
+      <workItem from="1621691026717" duration="542000" />
+      <workItem from="1621757346987" duration="794000" />
+      <workItem from="1621862004817" duration="3225000" />
     </task>
     <servers />
   </component>
