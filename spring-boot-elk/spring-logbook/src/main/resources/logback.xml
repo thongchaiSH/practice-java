@@ -4,28 +4,28 @@
     <springProperty scope="context" name="appName" source="spring.application.name"/>
 
 
-    <appender name="traceRequest" class="net.logstash.logback.appender.LogstashTcpSocketAppender">
-        <destination>localhost:5044</destination>
-        <encoder class="net.logstash.logback.encoder.LoggingEventCompositeJsonEncoder">
-            <providers>
-                <mdc/>
-                <context/>
-                <version/>
-                <logLevel/>
-                <loggerName/>
-                <message/>
-                <pattern>
-                    <pattern>
-                        {
-                        "appName": "ecom-http-trace"
-                        }
-                    </pattern>
-                </pattern>
-                <threadName/>
-                <stackTrace/>
-            </providers>
-        </encoder>
-    </appender>
+<!--    <appender name="traceRequest" class="net.logstash.logback.appender.LogstashTcpSocketAppender">-->
+<!--        <destination>localhost:5044</destination>-->
+<!--        <encoder class="net.logstash.logback.encoder.LoggingEventCompositeJsonEncoder">-->
+<!--            <providers>-->
+<!--                <mdc/>-->
+<!--                <context/>-->
+<!--                <version/>-->
+<!--                <logLevel/>-->
+<!--                <loggerName/>-->
+<!--                <message/>-->
+<!--                <pattern>-->
+<!--                    <pattern>-->
+<!--                        {-->
+<!--                        "appName": "ecom-http-trace"-->
+<!--                        }-->
+<!--                    </pattern>-->
+<!--                </pattern>-->
+<!--                <threadName/>-->
+<!--                <stackTrace/>-->
+<!--            </providers>-->
+<!--        </encoder>-->
+<!--    </appender>-->
 
     <appender name="logstash" class="net.logstash.logback.appender.LogstashTcpSocketAppender">
         <destination>localhost:5044</destination>
@@ -57,12 +57,13 @@
     </appender>
 
 
-    <logger name="com.spring.elk.util.LogstashLogbackSink" level="TRACE" additivity="false">
-        <appender-ref ref="traceRequest"/>
-    </logger>
+<!--    <logger name="com.spring.elk.util.LogstashLogbackSink" level="TRACE" additivity="false">-->
+<!--        <appender-ref ref="traceRequest"/>-->
+<!--    </logger>-->
 
     <root level="INFO">
         <appender-ref ref="logstash"/>
+
     </root>
 
     <logger name="org.springframework" level="INFO"/>

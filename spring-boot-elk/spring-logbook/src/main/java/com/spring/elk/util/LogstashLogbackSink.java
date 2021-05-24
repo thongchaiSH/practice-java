@@ -3,6 +3,7 @@ package com.spring.elk.util;
 import lombok.extern.slf4j.Slf4j;
 import net.logstash.logback.marker.RawJsonAppendingMarker;
 import org.slf4j.MDC;
+import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.zalando.logbook.*;
 import org.zalando.logbook.json.JsonHttpLogFormatter;
@@ -10,10 +11,15 @@ import org.zalando.logbook.json.JsonHttpLogFormatter;
 import java.io.IOException;
 import java.util.logging.Logger;
 
+import static org.zalando.logbook.Conditions.exclude;
+import static org.zalando.logbook.Conditions.requestTo;
+
 
 @Slf4j
 @Configuration
 public class LogstashLogbackSink implements Sink {
+
+
 
     @Override
     public void writeBoth(Correlation correlation, HttpRequest request, HttpResponse response) throws java.io.IOException {

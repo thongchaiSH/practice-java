@@ -1,5 +1,0 @@
-spring.application.name: elk-old-service
-
-logbook:
-  include:
-    - /api/**

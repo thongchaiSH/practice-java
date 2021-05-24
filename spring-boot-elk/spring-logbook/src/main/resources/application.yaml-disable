@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: elk-old-service
+
+logbook:
+  include:
+    - /api/**
+#    - /actuator/**
+#  exclude:
+#    - /info**
+#  filter.enabled: true

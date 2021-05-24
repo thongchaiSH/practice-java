@@ -24,6 +24,7 @@ public class ApiController {
 
     @GetMapping("/employee")
     public ResponseBo index() {
+        log.debug("HELLO!!!!");
         return ResponseBo.builder().status("0").message("200").build();
     }
 
