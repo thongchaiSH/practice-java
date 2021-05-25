@@ -2,14 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5e8678aa-1303-4e7b-8b25-9a2e1c96cb3d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/learn/java/streams/CollectionsVsStream.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/learn/java/streams/StreamMapExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/learn/java/streams/StreamsComparatorExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/learn/java/streams/StreamsExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/learn/java/streams/StreamsFilterExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/learn/java/streams/StreamsFlatMapExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/learn/java/streams/StreamMapReduceExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/learn/java/streams/StreamReduceExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/learn/java/streams/StreamsFindAnyFirstExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/learn/java/streams/StreamsLimitSkipExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/learn/java/streams/StreamsMachExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/learn/java/streams/StreamsMinMaxExample.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java-8/com/learn/java/lambdas/LambdaVariable2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-8/com/learn/java/lambdas/LambdaVariable2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-8/com/learn/java/data/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-8/com/learn/java/data/Student.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/learn/java/data/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/learn/java/data/Student.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../udemy-spring-cloud/PhotoAppApiAlbums" beforeDir="false" afterPath="$PROJECT_DIR$/../udemy-spring-cloud/PhotoAppApiAlbums" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -103,9 +104,9 @@
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="reference.settings.deploy.options" />
   </component>
-  <component name="RunManager" selected="Application.StreamsFilterExample">
-    <configuration name="StreamMapExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.learn.java.streams.StreamMapExample" />
+  <component name="RunManager" selected="Application.StreamsFindAnyFirstExample">
+    <configuration name="StreamMapReduceExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.learn.java.streams.StreamMapReduceExample" />
       <module name="java-8" />
       <extension name="coverage">
         <pattern>
@@ -117,8 +118,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StreamsComparatorExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.learn.java.streams.StreamsComparatorExample" />
+    <configuration name="StreamsFindAnyFirstExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.learn.java.streams.StreamsFindAnyFirstExample" />
       <module name="java-8" />
       <extension name="coverage">
         <pattern>
@@ -130,8 +131,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StreamsExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.learn.java.streams.StreamsExample" />
+    <configuration name="StreamsLimitSkipExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.learn.java.streams.StreamsLimitSkipExample" />
       <module name="java-8" />
       <extension name="coverage">
         <pattern>
@@ -143,8 +144,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StreamsFilterExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.learn.java.streams.StreamsFilterExample" />
+    <configuration name="StreamsMachExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.learn.java.streams.StreamsMachExample" />
       <module name="java-8" />
       <extension name="coverage">
         <pattern>
@@ -156,8 +157,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StreamsFlatMapExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.learn.java.streams.StreamsFlatMapExample" />
+    <configuration name="StreamsMinMaxExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.learn.java.streams.StreamsMinMaxExample" />
       <module name="java-8" />
       <extension name="coverage">
         <pattern>
@@ -181,19 +182,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.StreamsExample" />
-      <item itemvalue="Application.StreamMapExample" />
-      <item itemvalue="Application.StreamsFlatMapExample" />
-      <item itemvalue="Application.StreamsComparatorExample" />
-      <item itemvalue="Application.StreamsFilterExample" />
+      <item itemvalue="Application.StreamMapReduceExample" />
+      <item itemvalue="Application.StreamsMinMaxExample" />
+      <item itemvalue="Application.StreamsLimitSkipExample" />
+      <item itemvalue="Application.StreamsMachExample" />
+      <item itemvalue="Application.StreamsFindAnyFirstExample" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.StreamsFilterExample" />
-        <item itemvalue="Application.StreamsComparatorExample" />
-        <item itemvalue="Application.StreamsFlatMapExample" />
-        <item itemvalue="Application.StreamMapExample" />
-        <item itemvalue="Application.StreamsExample" />
+        <item itemvalue="Application.StreamsFindAnyFirstExample" />
+        <item itemvalue="Application.StreamsMachExample" />
+        <item itemvalue="Application.StreamsLimitSkipExample" />
+        <item itemvalue="Application.StreamsMinMaxExample" />
+        <item itemvalue="Application.StreamMapReduceExample" />
       </list>
     </recent_temporary>
   </component>
@@ -211,7 +212,7 @@
       <workItem from="1621590568377" duration="2868000" />
       <workItem from="1621691026717" duration="542000" />
       <workItem from="1621757346987" duration="794000" />
-      <workItem from="1621862004817" duration="7435000" />
+      <workItem from="1621862004817" duration="15469000" />
     </task>
     <servers />
   </component>

@@ -8,7 +8,7 @@ public class Student {
     private int gradeLevel;
     private double gpa;
     private String gender;
-//    private int noteBooks;
+    private int noteBooks;
 //    private Optional<Bike> bike;
 
 //    public Optional<Bike> getBike() {
@@ -28,18 +28,18 @@ public class Student {
         this.gradeLevel = gradeLevel;
         this.gpa = gpa;
         this.gender = gender;
-//        this.noteBooks = noteBooks;
+        this.noteBooks = noteBooks;
         this.activities = activities;
     }
 
-//    public int getNoteBooks() {
+    public int getNoteBooks() {
 
-//        return noteBooks;
-//    }
+        return noteBooks;
+    }
 
-//    public void setNoteBooks(int noteBooks) {
-//        this.noteBooks = noteBooks;
-//    }
+    public void setNoteBooks(int noteBooks) {
+        this.noteBooks = noteBooks;
+    }
 
     public Student(String name, int gradeLevel, double gpa, String gender, List<String> activities) {
         this.name = name;
