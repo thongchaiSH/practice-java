@@ -2,15 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5e8678aa-1303-4e7b-8b25-9a2e1c96cb3d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/learn/java/streams/StreamMapReduceExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/learn/java/streams/StreamReduceExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/learn/java/streams/StreamsFindAnyFirstExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/learn/java/streams/StreamsLimitSkipExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/learn/java/streams/StreamsMachExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/learn/java/streams/StreamsMinMaxExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/learn/java/numericstream/NumericStreamAggregateExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/learn/java/numericstream/NumericStreamBoxingUnboxingExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/learn/java/numericstream/NumericStreamMapExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/learn/java/numericstream/NumericStreamRangesExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/learn/java/numericstream/NumericStreamsExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/learn/java/streams/StreamOfGenerateIterateExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/learn/java/streams_terminal/StreamCountingExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/learn/java/streams_terminal/StreamsGroupingByExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/learn/java/streams_terminal/StreamsJoiningExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/learn/java/streams_terminal/StreamsMappingExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/learn/java/streams_terminal/StreamsMinByMaxByExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/learn/java/streams_terminal/StreamsPartitioningByExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/learn/java/streams_terminal/StreamsSumAvgExample.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java-8/com/learn/java/data/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-8/com/learn/java/data/Student.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/learn/java/data/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/learn/java/data/Student.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../udemy-spring-cloud/PhotoAppApiAlbums" beforeDir="false" afterPath="$PROJECT_DIR$/../udemy-spring-cloud/PhotoAppApiAlbums" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -104,13 +109,13 @@
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="reference.settings.deploy.options" />
   </component>
-  <component name="RunManager" selected="Application.StreamsFindAnyFirstExample">
-    <configuration name="StreamMapReduceExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.learn.java.streams.StreamMapReduceExample" />
+  <component name="RunManager" selected="Application.StreamsPartitioningByExample">
+    <configuration name="StreamsGroupingByExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.learn.java.streams_terminal.StreamsGroupingByExample" />
       <module name="java-8" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.learn.java.streams.*" />
+          <option name="PATTERN" value="com.learn.java.streams_terminal.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -118,12 +123,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StreamsFindAnyFirstExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.learn.java.streams.StreamsFindAnyFirstExample" />
+    <configuration name="StreamsMappingExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.learn.java.streams_terminal.StreamsMappingExample" />
       <module name="java-8" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.learn.java.streams.*" />
+          <option name="PATTERN" value="com.learn.java.streams_terminal.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -131,12 +136,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StreamsLimitSkipExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.learn.java.streams.StreamsLimitSkipExample" />
+    <configuration name="StreamsMinByMaxByExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.learn.java.streams_terminal.StreamsMinByMaxByExample" />
       <module name="java-8" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.learn.java.streams.*" />
+          <option name="PATTERN" value="com.learn.java.streams_terminal.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -144,12 +149,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StreamsMachExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.learn.java.streams.StreamsMachExample" />
+    <configuration name="StreamsPartitioningByExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.learn.java.streams_terminal.StreamsPartitioningByExample" />
       <module name="java-8" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.learn.java.streams.*" />
+          <option name="PATTERN" value="com.learn.java.streams_terminal.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -157,12 +162,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StreamsMinMaxExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.learn.java.streams.StreamsMinMaxExample" />
+    <configuration name="StreamsSumAvgExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.learn.java.streams_terminal.StreamsSumAvgExample" />
       <module name="java-8" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.learn.java.streams.*" />
+          <option name="PATTERN" value="com.learn.java.streams_terminal.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -182,19 +187,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.StreamMapReduceExample" />
-      <item itemvalue="Application.StreamsMinMaxExample" />
-      <item itemvalue="Application.StreamsLimitSkipExample" />
-      <item itemvalue="Application.StreamsMachExample" />
-      <item itemvalue="Application.StreamsFindAnyFirstExample" />
+      <item itemvalue="Application.StreamsMappingExample" />
+      <item itemvalue="Application.StreamsMinByMaxByExample" />
+      <item itemvalue="Application.StreamsSumAvgExample" />
+      <item itemvalue="Application.StreamsGroupingByExample" />
+      <item itemvalue="Application.StreamsPartitioningByExample" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.StreamsFindAnyFirstExample" />
-        <item itemvalue="Application.StreamsMachExample" />
-        <item itemvalue="Application.StreamsLimitSkipExample" />
-        <item itemvalue="Application.StreamsMinMaxExample" />
-        <item itemvalue="Application.StreamMapReduceExample" />
+        <item itemvalue="Application.StreamsPartitioningByExample" />
+        <item itemvalue="Application.StreamsGroupingByExample" />
+        <item itemvalue="Application.StreamsSumAvgExample" />
+        <item itemvalue="Application.StreamsMinByMaxByExample" />
+        <item itemvalue="Application.StreamsMappingExample" />
       </list>
     </recent_temporary>
   </component>
@@ -212,7 +217,7 @@
       <workItem from="1621590568377" duration="2868000" />
       <workItem from="1621691026717" duration="542000" />
       <workItem from="1621757346987" duration="794000" />
-      <workItem from="1621862004817" duration="15469000" />
+      <workItem from="1621862004817" duration="21969000" />
     </task>
     <servers />
   </component>
