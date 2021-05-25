@@ -2,19 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5e8678aa-1303-4e7b-8b25-9a2e1c96cb3d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/learn/java/numericstream/NumericStreamAggregateExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/learn/java/numericstream/NumericStreamBoxingUnboxingExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/learn/java/numericstream/NumericStreamMapExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/learn/java/numericstream/NumericStreamRangesExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/learn/java/numericstream/NumericStreamsExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/learn/java/streams/StreamOfGenerateIterateExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/learn/java/streams_terminal/StreamCountingExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/learn/java/streams_terminal/StreamsGroupingByExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/learn/java/streams_terminal/StreamsJoiningExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/learn/java/streams_terminal/StreamsMappingExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/learn/java/streams_terminal/StreamsMinByMaxByExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/learn/java/streams_terminal/StreamsPartitioningByExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/learn/java/streams_terminal/StreamsSumAvgExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/learn/java/parallelstream/ParallelStreamBoxedExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/learn/java/parallelstream/ParallelStreamExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/learn/java/parallelstream/ParallelStreamExample1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/learn/java/parallelstream/Sum.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../udemy-spring-cloud/PhotoAppApiAlbums" beforeDir="false" afterPath="$PROJECT_DIR$/../udemy-spring-cloud/PhotoAppApiAlbums" afterDir="false" />
     </list>
@@ -109,13 +100,13 @@
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="reference.settings.deploy.options" />
   </component>
-  <component name="RunManager" selected="Application.StreamsPartitioningByExample">
-    <configuration name="StreamsGroupingByExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.learn.java.streams_terminal.StreamsGroupingByExample" />
+  <component name="RunManager" selected="Application.SumClient">
+    <configuration name="ParallelStreamBoxedExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.learn.java.parallelstream.ParallelStreamBoxedExample" />
       <module name="java-8" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.learn.java.streams_terminal.*" />
+          <option name="PATTERN" value="com.learn.java.parallelstream.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -123,12 +114,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StreamsMappingExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.learn.java.streams_terminal.StreamsMappingExample" />
+    <configuration name="ParallelStreamExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.learn.java.parallelstream.ParallelStreamExample" />
       <module name="java-8" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.learn.java.streams_terminal.*" />
+          <option name="PATTERN" value="com.learn.java.parallelstream.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -136,12 +127,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StreamsMinByMaxByExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.learn.java.streams_terminal.StreamsMinByMaxByExample" />
+    <configuration name="ParallelStreamExample1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.learn.java.parallelstream.ParallelStreamExample1" />
       <module name="java-8" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.learn.java.streams_terminal.*" />
+          <option name="PATTERN" value="com.learn.java.parallelstream.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -162,12 +153,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StreamsSumAvgExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.learn.java.streams_terminal.StreamsSumAvgExample" />
+    <configuration name="SumClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.learn.java.parallelstream.SumClient" />
       <module name="java-8" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.learn.java.streams_terminal.*" />
+          <option name="PATTERN" value="com.learn.java.parallelstream.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -187,19 +178,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.StreamsMappingExample" />
-      <item itemvalue="Application.StreamsMinByMaxByExample" />
-      <item itemvalue="Application.StreamsSumAvgExample" />
-      <item itemvalue="Application.StreamsGroupingByExample" />
       <item itemvalue="Application.StreamsPartitioningByExample" />
+      <item itemvalue="Application.ParallelStreamExample" />
+      <item itemvalue="Application.ParallelStreamExample1" />
+      <item itemvalue="Application.ParallelStreamBoxedExample" />
+      <item itemvalue="Application.SumClient" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SumClient" />
+        <item itemvalue="Application.ParallelStreamBoxedExample" />
+        <item itemvalue="Application.ParallelStreamExample1" />
+        <item itemvalue="Application.ParallelStreamExample" />
         <item itemvalue="Application.StreamsPartitioningByExample" />
-        <item itemvalue="Application.StreamsGroupingByExample" />
-        <item itemvalue="Application.StreamsSumAvgExample" />
-        <item itemvalue="Application.StreamsMinByMaxByExample" />
-        <item itemvalue="Application.StreamsMappingExample" />
       </list>
     </recent_temporary>
   </component>
@@ -217,7 +208,7 @@
       <workItem from="1621590568377" duration="2868000" />
       <workItem from="1621691026717" duration="542000" />
       <workItem from="1621757346987" duration="794000" />
-      <workItem from="1621862004817" duration="21969000" />
+      <workItem from="1621862004817" duration="23905000" />
     </task>
     <servers />
   </component>
