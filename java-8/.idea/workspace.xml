@@ -2,11 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5e8678aa-1303-4e7b-8b25-9a2e1c96cb3d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/learn/java/parallelstream/ParallelStreamBoxedExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/learn/java/parallelstream/ParallelStreamExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/learn/java/parallelstream/ParallelStreamExample1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/learn/java/parallelstream/Sum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/learn/java/data/Bike.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/learn/java/defaults/Client123.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/learn/java/defaults/Client14.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/learn/java/defaults/DefaultMethodExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/learn/java/defaults/DefaultMethodExample2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/learn/java/defaults/Interface1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/learn/java/defaults/Interface2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/learn/java/defaults/Interface3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/learn/java/defaults/Interface4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/learn/java/defaults/Multiplier.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/learn/java/defaults/MultiplierClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/learn/java/defaults/MultiplierImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/learn/java/optional/OptionalExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/learn/java/optional/OptionalMapFlatMapExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/learn/java/optional/OptionalOfEmptyNullableExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/learn/java/optional/OptionalOrElseExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/learn/java/optional/OptionalPresentExample.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-8/com/learn/java/data/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-8/com/learn/java/data/Student.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-8/com/learn/java/data/StudentDataBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-8/com/learn/java/data/StudentDataBase.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/learn/java/data/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/learn/java/data/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/learn/java/data/StudentDataBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/learn/java/data/StudentDataBase.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../udemy-spring-cloud/PhotoAppApiAlbums" beforeDir="false" afterPath="$PROJECT_DIR$/../udemy-spring-cloud/PhotoAppApiAlbums" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -17,6 +34,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -100,13 +118,13 @@
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="reference.settings.deploy.options" />
   </component>
-  <component name="RunManager" selected="Application.SumClient">
-    <configuration name="ParallelStreamBoxedExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.learn.java.parallelstream.ParallelStreamBoxedExample" />
+  <component name="RunManager" selected="Application.Client14">
+    <configuration name="Client123" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.learn.java.defaults.Client123" />
       <module name="java-8" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.learn.java.parallelstream.*" />
+          <option name="PATTERN" value="com.learn.java.defaults.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -114,12 +132,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ParallelStreamExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.learn.java.parallelstream.ParallelStreamExample" />
+    <configuration name="Client14" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.learn.java.defaults.Client14" />
       <module name="java-8" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.learn.java.parallelstream.*" />
+          <option name="PATTERN" value="com.learn.java.defaults.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -127,12 +145,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ParallelStreamExample1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.learn.java.parallelstream.ParallelStreamExample1" />
+    <configuration name="DefaultMethodExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.learn.java.defaults.DefaultMethodExample" />
       <module name="java-8" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.learn.java.parallelstream.*" />
+          <option name="PATTERN" value="com.learn.java.defaults.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -140,12 +158,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StreamsPartitioningByExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.learn.java.streams_terminal.StreamsPartitioningByExample" />
+    <configuration name="DefaultMethodExample2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.learn.java.defaults.DefaultMethodExample2" />
       <module name="java-8" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.learn.java.streams_terminal.*" />
+          <option name="PATTERN" value="com.learn.java.defaults.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -153,12 +171,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SumClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.learn.java.parallelstream.SumClient" />
+    <configuration name="MultiplierClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.learn.java.defaults.MultiplierClient" />
       <module name="java-8" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.learn.java.parallelstream.*" />
+          <option name="PATTERN" value="com.learn.java.defaults.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -166,31 +184,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.StreamsPartitioningByExample" />
-      <item itemvalue="Application.ParallelStreamExample" />
-      <item itemvalue="Application.ParallelStreamExample1" />
-      <item itemvalue="Application.ParallelStreamBoxedExample" />
-      <item itemvalue="Application.SumClient" />
+      <item itemvalue="Application.DefaultMethodExample" />
+      <item itemvalue="Application.DefaultMethodExample2" />
+      <item itemvalue="Application.MultiplierClient" />
+      <item itemvalue="Application.Client123" />
+      <item itemvalue="Application.Client14" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.SumClient" />
-        <item itemvalue="Application.ParallelStreamBoxedExample" />
-        <item itemvalue="Application.ParallelStreamExample1" />
-        <item itemvalue="Application.ParallelStreamExample" />
-        <item itemvalue="Application.StreamsPartitioningByExample" />
+        <item itemvalue="Application.Client14" />
+        <item itemvalue="Application.Client123" />
+        <item itemvalue="Application.MultiplierClient" />
+        <item itemvalue="Application.DefaultMethodExample2" />
+        <item itemvalue="Application.DefaultMethodExample" />
       </list>
     </recent_temporary>
   </component>
@@ -208,7 +228,8 @@
       <workItem from="1621590568377" duration="2868000" />
       <workItem from="1621691026717" duration="542000" />
       <workItem from="1621757346987" duration="794000" />
-      <workItem from="1621862004817" duration="23905000" />
+      <workItem from="1621862004817" duration="24329000" />
+      <workItem from="1622088421797" duration="6628000" />
     </task>
     <servers />
   </component>
