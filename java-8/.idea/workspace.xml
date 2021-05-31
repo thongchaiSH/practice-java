@@ -2,12 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5e8678aa-1303-4e7b-8b25-9a2e1c96cb3d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/learn/java/dates/DateToLocalDateExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/learn/java/dates/FormattingLocalDateExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/learn/java/dates/FormattingLocalDateTimeExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/learn/java/dates/FormattingLocalTimeExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/learn/java/dates/ZoneDateTimeExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../udemy-spring-cloud/PhotoAppApiAlbums" beforeDir="false" afterPath="$PROJECT_DIR$/../udemy-spring-cloud/PhotoAppApiAlbums" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -213,7 +207,7 @@
       <workItem from="1621691026717" duration="542000" />
       <workItem from="1621757346987" duration="794000" />
       <workItem from="1621862004817" duration="24329000" />
-      <workItem from="1622088421797" duration="21844000" />
+      <workItem from="1622088421797" duration="22098000" />
     </task>
     <servers />
   </component>
