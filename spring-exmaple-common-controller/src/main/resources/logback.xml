@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="WARN">
+<Properties>
+    	<Property name="LOG_PATH">/var/log/fwdlogs/fwd-is-connector</Property>
+	<Property name="LOG_PATTERN">%d [%thread] %-5p %C{1.}.%M-%L - %msg%n</Property>
+</Properties>
+					 
+					 
+<Appenders>
+
+    <!-- console appender -->
+    <Console name="console-log" target="SYSTEM_OUT">
+        <PatternLayout pattern="%d{yyyy-MM-dd HH:mm:ss} [%thread] %-5level %logger{36} - %msg%n"/>
+    </Console>
+
+    <!-- file appender -->
+	<RollingFile name="application-log" fileName="${LOG_PATH}/console.log"
+                 filePattern="${LOG_PATH}/console-%d{yyyy-MM-dd}-%i.log.gz">
+        <!-- log pattern -->
+        <PatternLayout>
+             <pattern>${LOG_PATTERN}</pattern>
+        </PatternLayout>
+
+        <!-- set file size policy -->
+        <Policies>
+            <TimeBasedTriggeringPolicy />
+            <SizeBasedTriggeringPolicy size="5 MB" />
+        </Policies>
+    </RollingFile>
+
+	
+</Appenders>
+<Loggers>
+    <Logger name="com.is" level="debug" additivity="false">
+        <appender-ref ref="console-log"/>
+    </Logger>
+    <Logger name="org.hibernate.SQL" level="debug"/>
+    <Logger name="org.hibernate.type.descriptor" level="trace"/>
+    <Root level="error">
+		<appender-ref ref="console-log"/>
+		<appender-ref ref="application-log"/>
+    </Root>
+</Loggers>
+</Configuration>
