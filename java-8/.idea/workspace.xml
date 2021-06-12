@@ -2,6 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5e8678aa-1303-4e7b-8b25-9a2e1c96cb3d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../apache-kafka/tools/kafka_2.12-2.8.0/logs/controller.log" beforeDir="false" afterPath="$PROJECT_DIR$/../apache-kafka/tools/kafka_2.12-2.8.0/logs/controller.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apache-kafka/tools/kafka_2.12-2.8.0/logs/kafkaServer-gc.log" beforeDir="false" afterPath="$PROJECT_DIR$/../apache-kafka/tools/kafka_2.12-2.8.0/logs/kafkaServer-gc.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apache-kafka/tools/kafka_2.12-2.8.0/logs/kafkaServer-gc.log.3" beforeDir="false" afterPath="$PROJECT_DIR$/../apache-kafka/tools/kafka_2.12-2.8.0/logs/kafkaServer-gc.log.3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apache-kafka/tools/kafka_2.12-2.8.0/logs/kafkaServer-gc.log.4" beforeDir="false" afterPath="$PROJECT_DIR$/../apache-kafka/tools/kafka_2.12-2.8.0/logs/kafkaServer-gc.log.4" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apache-kafka/tools/kafka_2.12-2.8.0/logs/server.log" beforeDir="false" afterPath="$PROJECT_DIR$/../apache-kafka/tools/kafka_2.12-2.8.0/logs/server.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apache-kafka/tools/kafka_2.12-2.8.0/logs/server.log.2021-05-31-09" beforeDir="false" afterPath="$PROJECT_DIR$/../apache-kafka/tools/kafka_2.12-2.8.0/logs/server.log.2021-05-31-09" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../udemy-spring-cloud/PhotoAppApiAlbums" beforeDir="false" afterPath="$PROJECT_DIR$/../udemy-spring-cloud/PhotoAppApiAlbums" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -93,6 +100,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="reference.settings.deploy.options" />
   </component>
@@ -162,19 +170,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
       <item itemvalue="Application.ZoneDateTimeExample" />
       <item itemvalue="Application.DateToLocalDateExample" />
@@ -208,6 +203,8 @@
       <workItem from="1621757346987" duration="794000" />
       <workItem from="1621862004817" duration="24329000" />
       <workItem from="1622088421797" duration="22098000" />
+      <workItem from="1622431319192" duration="1038000" />
+      <workItem from="1623208330665" duration="473000" />
     </task>
     <servers />
   </component>
