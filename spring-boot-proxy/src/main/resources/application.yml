@@ -1,0 +1,5 @@
+zuul:
+  routes:
+    foos:
+      path: /todos/**
+      url: https://jsonplaceholder.typicode.com/todos

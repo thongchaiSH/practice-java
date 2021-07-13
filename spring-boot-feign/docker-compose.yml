@@ -1,0 +1,29 @@
+version: '3.7'
+services:
+  nginx_server:
+    image: custom-nginx
+    ports:
+      - '80:80'
+    networks:
+      - demo-network
+    depends_on:
+      - "search-service-1"
+      - "search-service-2"
+      - "search-service-3"
+#      - "analysis-service"
+  search-service-1:
+    image: search-service
+  search-service-2:
+    image: search-service
+  search-service-3:
+    image: search-service
+
+  #analysis-service:
+  #  image: analysis-service
+  #  ports:
+  #    - '8083:8083'
+  #  networks:
+  #    - demo-network
+networks:
+  demo-network:
+    name: demo-network
