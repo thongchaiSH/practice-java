@@ -1,7 +1,8 @@
 version: '3.7'
 services:
   nginx_server:
-    image: custom-nginx
+    #image: custom-nginx
+    build: Dockerfiles/Nginx/.
     ports:
       - '80:80'
     networks:
@@ -11,12 +12,19 @@ services:
       - "search-service-2"
       - "search-service-3"
 #      - "analysis-service"
+
   search-service-1:
     image: search-service
+    networks:
+      - demo-network
   search-service-2:
     image: search-service
+    networks:
+      - demo-network
   search-service-3:
     image: search-service
+    networks:
+      - demo-network
 
   #analysis-service:
   #  image: analysis-service
