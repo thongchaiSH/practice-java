@@ -2,6 +2,7 @@ package com.ith.msscjackson.model;
 
 import com.fasterxml.jackson.annotation.JsonFormat;
 import com.fasterxml.jackson.annotation.JsonProperty;
+import com.fasterxml.jackson.databind.annotation.JsonDeserialize;
 import com.fasterxml.jackson.databind.annotation.JsonSerialize;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
@@ -38,11 +39,12 @@ public class BeerDto {
     @JsonFormat(shape = JsonFormat.Shape.NUMBER_INT)
     private BigDecimal price;
 
-    @JsonFormat(pattern = "yyyy-MM-dd",shape = JsonFormat.Shape.STRING)
+//    @JsonFormat(pattern = "yyyy-MM-dd",shape = JsonFormat.Shape.STRING)
     private OffsetDateTime createdDate;
 
     private OffsetDateTime lastUpdatedDate;
 
     @JsonSerialize(using = LocalDateSerializer.class) //custom format
+    @JsonDeserialize(using = LocalDateDeserializer.class) //custom deserialize
     private LocalDate myLocalDate;
 }
