@@ -1,0 +1,23 @@
+spring:
+  datasource:
+    url: jdbc:h2:mem:testdb
+    driver-class-name: org.h2.Driver
+    username: sa
+    password: password
+  jpa:
+    database-platform: org.hibernate.dialect.H2Dialect
+    show-sql: true
+  cache:
+    type: redis
+    cache-names: country
+    redis:
+      time-to-live: 60000
+  redis:
+    host: localhost
+    port: 6379
+
+# HTTP Server
+server:
+  port: 7071
+  servlet:
+    context-path: /country-service
