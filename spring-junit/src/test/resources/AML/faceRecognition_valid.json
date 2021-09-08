@@ -1,0 +1,39 @@
+{
+  "force_face_comparison":true,
+  "accepted_consents": [
+    "CUSTOMER_IDENTIFICATION",
+    "COLLECT_CUSTOMER_INFORMATION"
+  ],
+  "files": [
+    {
+      "fileContent": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVQYV2NgYAAAAAMAAWgmWQ0AAAAASUVORK5CYII",
+      "type": "ID_CARD"
+    },
+    {
+      "fileContent": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVQYV2NgYAAAAAMAAWgmWQ0AAAAASUVORK5CYII",
+      "type": "SELFIE"
+    }
+  ],
+  "customer_data": {
+    "applicationNumber": "3861000001",
+    "person": {
+      "nationalityType": "THAI",
+      "title": "Mr.",
+      "firstName": "ธงไชย",
+      "lastName": "ใจดี",
+      "dateOfBirth": "09/11/1994",
+      "phoneNumber": "0980000000",
+      "email": "email@fwd.com",
+      "sellingType": "FACE_TO_FACE",
+      "role": "INSURED"
+    },
+    "registration": {
+      "id": "3541129174247",
+      "type": "ID_CARD"
+    },
+    "seller": {
+      "code": "0874512",
+      "channel": "IFWD"
+    }
+  }
+}
