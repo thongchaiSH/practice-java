@@ -8,15 +8,16 @@ import com.th.junit.intf.domain.SendOTPResponseIntfBO;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.lang.StringUtils;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
 
 @Slf4j
 @Service
-@RequiredArgsConstructor
 public class ClientFacadeService {
 
-    private final SendOTPClient sendOTPClient;
+    @Autowired
+    private  SendOTPClient sendOTPClient;
 
     @Value("${otpservice.otp.expire.min:5}")
     private int expireOTP;

@@ -7,11 +7,12 @@ import lombok.RequiredArgsConstructor;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-@RequiredArgsConstructor
+
 @Service
 public class ClientFacadeFacade {
 
-    private final ClientFacadeService clientfacadeService;
+    @Autowired
+    private  ClientFacadeService clientfacadeService;
 
     public SendOTPResponseBO sendOTP(SendOTPRequestBO request) {
         return clientfacadeService.sendOTP(request);
