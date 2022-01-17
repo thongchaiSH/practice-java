@@ -1,0 +1,43 @@
+spring:
+  application:
+    name: nbm-is-connector
+---
+spring:
+  profiles: PROD
+  cloud:
+    config:
+      uri: http://prod-th-big3-nlb-3d83b5d324b9dd08.elb.ap-southeast-1.amazonaws.com:8888 #TODO
+      username: nbm_conf_admin
+      password: zdfk3RB674cGub#w
+---
+spring:
+  profiles: UAT
+  cloud:
+    config:
+      uri: http://uat-th-big3-nlb-3d83b5d324b9dd08.elb.ap-southeast-1.amazonaws.com:8888 #TODO
+      username: nbm_conf_admin
+      password: zdfk3RB674cGub#w
+---
+spring:
+  profiles: SIT
+  cloud:
+    config:
+      uri: http://sit-th-big3-nlb-3d83b5d324b9dd08.elb.ap-southeast-1.amazonaws.com:8888 #TODO
+      username: nbm_conf_admin
+      password: zdfk3RB674cGub#w
+---
+spring:
+  profiles: DEV2
+  cloud:
+    config:
+      uri: http://th-big3-nlb-3d83b5d324b9dd08.elb.ap-southeast-1.amazonaws.com:8888
+      username: nbm_conf_admin
+      password: zdfk3RB674cGub#w
+---
+spring:
+  profiles: DEV
+  cloud:
+    config:
+      uri: http://th-big3-nlb-3d83b5d324b9dd08.elb.ap-southeast-1.amazonaws.com:8888
+      username: nbm_conf_admin
+      password: zdfk3RB674cGub#w

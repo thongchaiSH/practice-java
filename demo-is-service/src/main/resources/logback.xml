@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+    <property name="PATTERN" value="%-12(%d{yyyy-MM-dd HH:mm:ss.SSS}) |-%-5level [%thread] %c [%L] -| %msg%n" />
+
+    <property name="LOG_FILE_PATH" value="/var/log/fwdlogs/fwd-is-connector" />
+
+    
+        <appender name="CONSOLE" class="ch.qos.logback.core.ConsoleAppender">
+            <encoder class="ch.qos.logback.core.encoder.LayoutWrappingEncoder">
+                <layout class="com.fwd.sg.log.MaskingPatternLayout">
+                      <maskPattern>\"idCardNumber\"\s*:\s*\"(.*?)\"</maskPattern>
+                      <maskPattern>\"preferredName\"\s*:\s*\"(.*?)\"</maskPattern>
+                      <maskPattern>\"email\"\s*:\s*\"(.*?)\"</maskPattern>
+                      <maskPattern>\"mobile\"\s*:\s*\"(.*?)\"</maskPattern>
+                      <maskPattern>\"nric\"\s*:\s*\"(.*?)\"</maskPattern>  
+                      <maskPattern>username\s*(::)\s*(.*?)</maskPattern>
+                      <maskPattern>_session_username\s*(::)\s*(.*?)</maskPattern>
+                      <pattern>${PATTERN}</pattern>
+                </layout>
+            </encoder>
+        </appender>
+
+            <appender  name="application-log" class="ch.qos.logback.core.rolling.RollingFileAppender">
+             <encoder class="ch.qos.logback.core.encoder.LayoutWrappingEncoder">
+                <layout class="com.fwd.sg.log.MaskingPatternLayout">
+                      <maskPattern>\"idCardNumber\"\s*:\s*\"(.*?)\"</maskPattern>
+                      <maskPattern>\"preferredName\"\s*:\s*\"(.*?)\"</maskPattern>
+                      <maskPattern>\"email\"\s*:\s*\"(.*?)\"</maskPattern>
+                      <maskPattern>\"mobile\"\s*:\s*\"(.*?)\"</maskPattern>
+                      <maskPattern>\"nric\"\s*:\s*\"(.*?)\"</maskPattern>    
+                      <maskPattern>username\s*(::)\s*(.*?)</maskPattern>
+                      <maskPattern>_session_username\s*(::)\s*(.*?)</maskPattern>
+                      <pattern>${PATTERN}</pattern>
+                </layout>
+            </encoder>
+            <layout class="ch.qos.logback.classic.PatternLayout">
+                <pattern>${PATTERN}</pattern>
+            </layout>
+            <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+                <fileNamePattern>${LOG_FILE_PATH}/console_%d{yyyy-MM-dd}.log</fileNamePattern>
+                <MaxHistory>100000</MaxHistory>
+            </rollingPolicy>
+        </appender>
+        <appender name="product-log"  class="ch.qos.logback.core.rolling.RollingFileAppender">
+            <encoder class="ch.qos.logback.core.encoder.LayoutWrappingEncoder">
+                <layout class="com.fwd.sg.log.MaskingPatternLayout">
+                      <maskPattern>\"idCardNumber\"\s*:\s*\"(.*?)\"</maskPattern>
+                      <maskPattern>\"preferredName\"\s*:\s*\"(.*?)\"</maskPattern>
+                      <maskPattern>\"email\"\s*:\s*\"(.*?)\"</maskPattern>
+                      <maskPattern>\"mobile\"\s*:\s*\"(.*?)\"</maskPattern>
+                      <maskPattern>\"nric\"\s*:\s*\"(.*?)\"</maskPattern>  
+                      <maskPattern>username\s*(::)\s*(.*?)</maskPattern>
+                      <maskPattern>_session_username\s*(::)\s*(.*?)</maskPattern>
+                      <pattern>${PATTERN}</pattern>
+                </layout>
+            </encoder>
+             <layout class="ch.qos.logback.classic.PatternLayout">
+                <pattern>${PATTERN}</pattern>
+            </layout>
+              <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+                <fileNamePattern>${LOG_FILE_PATH}/product_%d{yyyy-MM-dd}.log</fileNamePattern>
+                <MaxHistory>100000</MaxHistory>
+            </rollingPolicy>
+        </appender>
+        <appender  name="common-services" class="ch.qos.logback.core.rolling.RollingFileAppender"  >
+             <encoder class="ch.qos.logback.core.encoder.LayoutWrappingEncoder">
+                <layout class="com.fwd.sg.log.MaskingPatternLayout">
+                      <maskPattern>\"idCardNumber\"\s*:\s*\"(.*?)\"</maskPattern>
+                      <maskPattern>\"preferredName\"\s*:\s*\"(.*?)\"</maskPattern>
+                      <maskPattern>\"email\"\s*:\s*\"(.*?)\"</maskPattern>
+                      <maskPattern>\"mobile\"\s*:\s*\"(.*?)\"</maskPattern>
+                      <maskPattern>\"nric\"\s*:\s*\"(.*?)\"</maskPattern>    
+                      <maskPattern>username\s*(::)\s*(.*?)</maskPattern>
+                      <maskPattern>_session_username\s*(::)\s*(.*?)</maskPattern>
+                      <pattern>${PATTERN}</pattern>
+                </layout>
+            </encoder>
+           
+            <layout class="ch.qos.logback.classic.PatternLayout">
+                <pattern>${PATTERN}</pattern>
+            </layout>
+              <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+                <fileNamePattern>${LOG_FILE_PATH}/common-services_%d{yyyy-MM-dd}.log</fileNamePattern>
+                <MaxHistory>100000</MaxHistory>
+            </rollingPolicy>
+        </appender>
+
+        <root level="error">
+            <appender-ref ref="CONSOLE" />
+            <appender-ref ref="application-log" />
+             <appender-ref ref="product-log" />
+              <appender-ref ref="common-services" />
+        </root>
+
+        <logger name="org.hibernate.sql" level="debug" additivity="false">
+              <appender-ref ref="CONSOLE" />
+            <appender-ref ref="application-log" />
+             <appender-ref ref="product-log" />
+              <appender-ref ref="common-services" />
+        </logger>
+        <!-- Log JDBC bind parameters -->
+        <logger name="org.hibernate.type.descriptor" level="debug" additivity="false">
+              <appender-ref ref="CONSOLE" />
+            <appender-ref ref="application-log" />
+             <appender-ref ref="product-log" />
+              <appender-ref ref="common-services" />
+        </logger>
+
+        <logger name="com.fwd"  level="debug"  additivity="false">
+            <appender-ref ref="CONSOLE" />
+            <appender-ref ref="application-log" />
+             <appender-ref ref="product-log" />
+              <appender-ref ref="common-services" />
+        </logger>
+    
+
+
+</configuration>

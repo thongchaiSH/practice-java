@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-parent</artifactId>
+        <version>2.6.2</version>
+        <relativePath/> <!-- lookup parent from repository -->
+    </parent>
+
+    <groupId>com.xclude</groupId>
+    <artifactId>spring-bom</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+    <name>spring-bom</name>
+
+    <description>spring-bom</description>
+    <licenses>
+        <license>
+            <name>GNU General Public license</name>
+            <url>https://www.gnu.org/license</url>
+        </license>
+    </licenses>
+
+    <organization>
+        <name>Xclude developer</name>
+    </organization>
+
+    <developers>
+        <developer>
+            <name>Thongchai Sittikhetkorn</name>
+            <organization>xcludedev</organization>
+        </developer>
+    </developers>
+
+    <properties>
+        <java.version>11</java.version>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+        <maven.compiler.source>${java.version}</maven.compiler.source>
+        <maven.compiler.target>${java.version}</maven.compiler.target>
+    </properties>
+
+</project>
